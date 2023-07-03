@@ -1,0 +1,38 @@
+.starting {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.starting h1 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions a {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #3c1755;
+  border: 1px solid #3c1755;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+  text-decoration: none;
+
+}
+
+.actions a:hover {
+  background-color: #873abb;
+  border-color: #873abb;
+}
+
+.btn {
+  padding: 2rem;
+}
